@@ -1,26 +1,25 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-
-body{
+body {
     background-color: rgb(153, 227, 50);
     color: black;
 }
 
-h1{
+h1 {
     margin-bottom: 50px;
     text-align: center;
 }
 
-.main-content{
+.main-content {
     width: 400px;
     height: 500px;
     margin: 0 auto;
 }
 
-.grid_wrapper{
+.grid_wrapper {
     width: 300px;
     height: 300px;
     margin: 0 auto;
@@ -30,7 +29,7 @@ h1{
     grid-template-columns: 90px 90px 90px;
 }
 
-.box{
+.box {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
@@ -39,7 +38,7 @@ h1{
     cursor: pointer;
 }
 
-.box:hover{
+.box:hover {
     background-color: rgb(191, 144, 235);
 }
 
@@ -47,7 +46,7 @@ h1{
     display: none;
 }
 
-#msg{
+#msg {
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
@@ -55,18 +54,34 @@ h1{
     color: white;
 }
 
-.new_game_btn{
+.new_game_btn {
     float: right;
-    color: white;
-    background-color: brown;
+    color: black;
+    background-color: olivedrab;
     margin-top: 100px;
     padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
-.reset_btn{
-    float: left;
+.new_game_btn:hover {
     color: white;
-    background-color: brown;
+    background-color: olivedrab;
+}
+
+.reset_btn {
+    float: left;
+    color: black;
+    background-color: olivedrab;
     margin-top: 100px;
     padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.reset_btn:hover {
+    color: white;
+    background-color: #728648;
 }
